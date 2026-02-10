@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Image Page</title>
+
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: #111;
+    }
+
+    .main-image {
+      width: 70vw;     /* 70% of screen width */
+      height: 70vh;    /* 70% of screen height */
+      object-fit: cover;
+      border-radius: 20px;
+      box-shadow: 0 0 30px rgba(0,0,0,0.6);
+    }
+  </style>
+</head>
+
+<body>
+  <img src="bare-minimum-v0-9aaunm71u9ig1.webp" class="main-image">
+</body>
+</html>
